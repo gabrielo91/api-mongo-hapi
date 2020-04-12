@@ -1,0 +1,29 @@
+{
+  "name": "api-mongo-hapi",
+  "version": "1.0.0",
+  "description": "Learning hapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielo91/api-mongo-hapi.git"
+  },
+  "author": "Gabriel <gabrielo_9103@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielo91/api-mongo-hapi/issues"
+  },
+  "homepage": "https://github.com/gabrielo91/api-mongo-hapi#readme",
+  "dependencies": {
+    "@hapi/hapi": "^19.1.1",
+    "hapi": "^18.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "standard": "^14.3.3"
+  }
+}
