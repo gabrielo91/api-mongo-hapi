@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "dev": "nodemon index.js",
+    "dev": "nodemon",
+    "linter": "standard",
+    "linter-fix": "standard --fix",
     "start": "node index.js"
   },
   "repository": {
